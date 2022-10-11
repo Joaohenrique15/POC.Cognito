@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POC.Cognito.Core\POC.Cognito.Core.csproj" />
+    <ProjectReference Include="..\POC.Cognito.Domain\POC.Cognito.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

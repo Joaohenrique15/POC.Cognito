@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Amazon.AspNetCore.Identity.Cognito" Version="2.2.0" />
+    <PackageReference Include="AWSSDK.CloudWatchEvents" Version="3.7.3.18" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.0.29" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\POC.Cognito.Core\POC.Cognito.Core.csproj" />
+    <ProjectReference Include="..\POC.Cognito.Domain\POC.Cognito.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
